@@ -1,6 +1,6 @@
 {
   "name": "dnd-home-utils",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A library of shared constants and components for D&D Home, by NicoToff",
   "main": "dist/index.js",
   "scripts": {
@@ -9,12 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "TODO"
+    "url": "https://github.com/NicoToff/dnd-home-utils"
   },
   "keywords": [
-    "dnd"
+    "dnd",
+    "5e",
+    "dnd home"
   ],
-  "types": "index.d.ts",
+  "types": "dist/index.d.ts",
   "author": "NicoToff",
   "license": "MIT",
   "devDependencies": {
