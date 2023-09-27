@@ -10,8 +10,14 @@ import { SOURCES, isSourceName } from "./types/source.type";
 import type { SourceName } from "./types/source.type";
 import { SPELL_LEVELS, isSpellLevel } from "./types/spell-level.type";
 import type { SpellLevel } from "./types/spell-level.type";
+import { SPELL_TAGS, isSpellTag } from "./types/spell-tag.type";
+import type { SpellTag } from "./types/spell-tag.type";
+import { ABILITY_SCORES, isAbilityScore } from "./types/ability-score.type";
+import type { AbilityScore } from "./types/ability-score.type";
 
-export type { ComponentName, DamageType, GroupName, SchoolName, SourceName, SpellLevel };
+export type { 
+    ComponentName, DamageType, GroupName, SchoolName, SourceName, SpellLevel, SpellTag, AbilityScore
+};
 export { 
     COMPONENTS, isComponentName, 
     DAMAGE_TYPES, isDamageType, 
@@ -19,4 +25,6 @@ export {
     SCHOOLS, isSchoolName, 
     SOURCES, isSourceName, 
     SPELL_LEVELS, isSpellLevel,
+    SPELL_TAGS, isSpellTag,
+    ABILITY_SCORES, isAbilityScore
 };
