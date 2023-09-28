@@ -8,7 +8,7 @@ export const SPELL_TAGS = [
   "summon",
   "control",
   "movement",
-];
+] as const;
 export type SpellTag = (typeof SPELL_TAGS)[number];
 export const isSpellTag = (value: unknown): value is SpellTag => {
   return SPELL_TAGS.includes(value as SpellTag);
